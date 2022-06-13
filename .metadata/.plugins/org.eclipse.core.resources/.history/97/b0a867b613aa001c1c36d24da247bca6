@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Hugo 0.88.1">
+	<title>Task3</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+
+
+
+	<!-- Bootstrap core CSS -->
+	<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		.text {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+		}
+
+		.text-d {
+			font-size: 0.8rem;
+		}
+
+		.color-text {
+			color: #34A853;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+
+
+	<!-- Custom styles for this template -->
+	<link href="css/signin.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+
+	<main id="parent" class="form-signin">
+		<form id="child" action="#">
+
+			<h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+			<label>It's free and only takes a minute.</label>
+			<br><br><br>
+
+			<label class="text">Username</label>
+			<div class="form-floating">
+				<input id="nameEmail" name="username" type="text" class="form-control" id="floatingInput"
+					placeholder="username">
+				<label for="floatingInput">Username</label>
+			</div>
+
+			<br>
+			<label class="text">Email Address</label>
+			<div class="form-floating">
+				<input type="email" class="form-control" id="floatingPassword" placeholder="name@example.com">
+				<label for="floatingPassword">Email</label>
+			</div>
+
+			<br>
+			<label class="text">Password</label>
+			<div class="form-floating">
+				<input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+				<label for="floatingPassword">Password</label>
+			</div>
+
+			<br>
+			<label class="text">Confirm Password</label>
+			<div class="form-floating">
+				<input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+				<label for="floatingPassword">Confirm Password</label>
+			</div>
+
+			<br>
+			<button class="w-100 btn btn-lg btn-primary" onClick="clickBtn()" type="submit">Sign Up</button>
+		</form>
+		<p class="mt-3 mb-3 text-d">By click the sign Up button, you agree to our
+			<br> <span class="color-text">Terms & Conditions</span>, and <span class="color-text">Privacy Policy.</span>
+
+		</p>
+	</main>
+
+</body>
+
+</html>

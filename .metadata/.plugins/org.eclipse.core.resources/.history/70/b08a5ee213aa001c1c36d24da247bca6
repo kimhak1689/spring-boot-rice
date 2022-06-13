@@ -1,0 +1,46 @@
+package gic.i4gic.tp.app;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+public class AllTasksController {
+	
+	@GetMapping("/tp14/task1")
+	public String task1() {
+		
+		return "<h1> Welcome to TP14 Task1 </h1>";
+	}
+}
+
+
+@Controller
+class Task_01Controller{
+	@GetMapping("/tp14/task2")
+	public String task2() {
+		
+		return "task02";
+	} 
+}
+
+
+@Controller
+class Task_01Controller{
+	@GetMapping("/tp14/task2")
+	public String task2() {
+		
+		return "task02";
+	} 
+}
+
+
+@Controller
+class Task_02Controller{
+	@GetMapping("/tp14/task2")
+	public String task2() {
+		
+		return "task02";
+	} 
+}
